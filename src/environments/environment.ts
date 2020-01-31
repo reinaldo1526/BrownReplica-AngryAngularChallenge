@@ -5,13 +5,14 @@
 export const environment = {
   production: false,
   firebase:{
-    apiKey: "",
-    authDomain: "fir-projects-75274.firebaseapp.com",
-    databaseURL: "https://fir-projects-75274.firebaseio.com",
-    projectId: "fir-projects-75274",
-    storageBucket: "fir-projects-75274.appspot.com",
-    messagingSenderId: "1090565741443",
-    appId: "1:1090565741443:web:d6b681f7ad4f60d4"
+    apiKey: "AIzaSyCZYDjBPyXY8N40DiLB-_SJU15RlkRXN9w",
+    authDomain: "ng-deb.firebaseapp.com",
+    databaseURL: "https://ng-deb.firebaseio.com",
+    projectId: "ng-deb",
+    storageBucket: "ng-deb.appspot.com",
+    messagingSenderId: "930229228551",
+    appId: "1:930229228551:web:f67d119d76ea6fd8c086a2",
+    measurementId: "G-WG8QQ30SGE"
   }
 };
 

@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-shelll',
+  selector: 'app-shell',
   templateUrl: './shell.component.html',
   styleUrls: ['./shell.component.scss']
 })
@@ -15,7 +15,7 @@ export class ShellComponent implements OnInit {
       map(result => result.matches),
       shareReplay()
     )
-  constructor(private breakPointObserver: BreakpointObserver) { }
+  constructor(private breakpointObserver: BreakpointObserver) { }
 
   ngOnInit() {
   }

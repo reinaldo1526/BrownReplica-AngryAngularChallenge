@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {
-  FormBuilder,
-  FormGroup,
-  Validators,
-} from '@angular/forms';
 import { AngularFireAuth } from '@angular/fire/auth';
+import {FormBuilder,FormGroup,Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-login-page',
